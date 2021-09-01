@@ -2,6 +2,7 @@
 A conversation bot for Discord, with additional entertainment utility.
 
 Friendtron generates responses to user input, using the gpt-2-simple API created by Max Woolf (https://github.com/minimaxir/gpt-2-simple), trained by our own cleaned Discord data. Features are written first and foremost by request, but generally serve a purpose of text entertainment and utility.
+Friendtron uses the 124M model, finetuned on personal conversation data that won't be included. The checkpoint and code referring to the checkpoint in use is included in the friendtron.py script.
 
 # Features: 
 ## Autonomous:
@@ -11,6 +12,9 @@ Friendtron generates responses to user input, using the gpt-2-simple API created
 
 ## Commands:
 * !friendtronhelp : Lists implemented commands to be viewed in Discord.
+* !friendtronchannel : Designates the channel as a Friendtron 'home' channel, using the bot channel activation rate (as opposed to the common activation rate). 
+* !friendtronblacklist : Designates the channel as a blacklisted channel, which will prevent Friendtron from interacting in any way, excluding responding to these permission modifiers.
+* !friendtronresetchannel : Removes the channel from Friendtron's blacklist and home channels, treating it instead like the default.
 * !dni / !DNI :  "Do Not Interact", ignores the entirety of the message body. Friendtron will not respond or add reactions. 
 * !pick <option1>, <option2>, or <option3>, <option...> : The bot randomly selects one item in a list of arbitrary length. Options MUST be separated by a comma and space or the sequence ", or ". These can be used interchangeably; i.e. "!pick a, or b, c, or d" will work the same as "!pick a, b, c, d".
 * !fmk <option1>, <option2>, or <option3>, <option...> : Friendtron plays F***, Marry, Kill with a list of AT LEAST three names. Same rules as !pick.
