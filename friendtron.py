@@ -564,7 +564,7 @@ async def on_message(message):
                 return
             
 
-client.run('ODY1MzQ1MDY1MjQ0Mjk1MjA4.YPCpZA.ZgEuzd_8_QHcDO-rAfTd8G-D7M8')
+client.run('YOUR_BOT_TOKEN_HERE')
 
 
     
