@@ -1,0 +1,30 @@
+```
+It's me, Friendtron!
+Here are my commands:
+!friendtronhelp: You're reading it!!
+!dni / !DNI :  "Do Not Interact", ignores the entirety of the message body. I will not respond or add reactions. 
+!friendtronchannel : Designate the current channel of the message as a home channel for me! I'll talk here as much as I want :)
+!friendtronblacklist : Designate this channel as a channel I can not talk or interact in ever!! You really hate Friendtron this much?
+!friendtronresetchannel : I throw away what I know about this channel, and treat it like a regular channel, with a lower rate of interacting
+
+!pick <option1>, <option2>, or <option3>, <option...> : I randomly select one item in a list of arbitrary length. Options MUST be separated by a comma and space or the sequence ", or "; these can be used interchangeably.
+
+!fmk <option1>, <option2>, or <option3>, <option...> : I play F***, Marry, Kill with a list of AT LEAST three names. Same rules as !pick.
+
+!roll <max> : I roll for a random number, like a die. I.e. !roll 20 means I will roll a 20 sided die, and report my result.
+
+!name <OPTIONAL amount> : I output a random name! Give a numeric amount to retrieve multiple names at once.
+
+!nametown <OPTIONAL amount> I come up with a random town name, using common town affixes to my known names. Give a numeric amount to retrieve multiple names at once.
+
+!joinvoice: I join the voice channel that the caller is in, and attempt to listen to the system microphone designated in the script. I will continue listening, and make synthesized voice responses. Until Discord.py incorporates voice channel listening, this is the best I can do.
+
+Rock, Paper, Scissors commands:
+!rock : play Rock
+
+!paper : play Paper
+
+!scissors : play Scissors
+
+!score : I list all recorded scores of players, including my own.
+```
